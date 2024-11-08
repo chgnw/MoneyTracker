@@ -6,7 +6,7 @@ const transactionSchema = new Schema({
     date: { type: Date, required: true },
     price: { type: Number, required: true },
     name: { type: String, required: true },
-    desc: { type: String, required: true },
+    desc: { type: String, required: false },
 });
 
 
